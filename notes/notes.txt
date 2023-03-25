@@ -19,3 +19,14 @@
 - gradle jar - creates jar file in build/lib folder
 
 - gradle run - runs the project by getting the main class from build.gradle
+
+- dependencies are pulled from the repository -> mavenCentral/JCenter in the build.gradle
+
+Repositories
+------------
+- location from where gradle pulls the dependencies.
+- can have multiple repositories
+- we can push the artefact to the repository for other projects to use
+- Can add custom repository by giving the url
+- gradle caches all the dependencies locally -> .gradle folder
+- transitive dependencies are alspo pulled in
