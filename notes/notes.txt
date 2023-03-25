@@ -41,3 +41,10 @@ Configurations
     - configurations in gradle - implemetation, api, compileOnly, runtimeOnly, testImplementation, testCompileOnly, testRuntimeOnly
 - compileOnly - available only for compilation. Unavailable during running the app.
 - runtimeOnly - available only during runtime
+
+Build phases
+-------------
+- every build in gradle needs to undergo three phases
+    - Initialization -> Checks if proj is single or multi module. Creates objects for build.gradle
+    - Configuration -> Constructs the DAG of the tasks in the build.gradle
+    - Execution -> Runs the tasks
