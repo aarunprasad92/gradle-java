@@ -36,4 +36,10 @@ tasks.named('test') {
 
 task firstTask{
     println 'firstTask'
+    doFirst {
+        println 'First execution task'
+    }
+    doLast {
+        println 'last task'
+    }
 }
