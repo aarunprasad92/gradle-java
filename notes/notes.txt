@@ -30,3 +30,14 @@ Repositories
 - Can add custom repository by giving the url
 - gradle caches all the dependencies locally -> .gradle folder
 - transitive dependencies are alspo pulled in
+
+Configurations
+---------------
+- build - compiles, run tests, create jar/war
+- sourceSets - src/main/java, src/test/java
+- dependencies can be configured for compiling main/test, running main/test, that needs to go into the jar/war file
+- implementation/testImplementation - configurations that comes with the java plugin
+- Scopes in maven - compile, provided, runtime, test
+    - configurations in gradle - implemetation, api, compileOnly, runtimeOnly, testImplementation, testCompileOnly, testRuntimeOnly
+- compileOnly - available only for compilation. Unavailable during running the app.
+- runtimeOnly - available only during runtime
