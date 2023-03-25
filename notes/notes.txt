@@ -48,3 +48,8 @@ Build phases
     - Initialization -> Checks if proj is single or multi module. Creates objects for build.gradle
     - Configuration -> Constructs the DAG of the tasks in the build.gradle
     - Execution -> Runs the tasks
+
+Gradle Daemon
+--------------
+gradle build --daemon -> executes the build task and also creates a background running process and subsequent builds will be much faster
+- to not use the daemon process, gradle build --no-daemon
