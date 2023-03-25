@@ -1,0 +1,21 @@
+- to list all the gradle tasks, gradle tasks --all
+
+- to add a task, add in build.gradle
+
+- to run a task, gradle taskName
+
+- settings.gradle -> project name
+
+- build.gradle -> plugins - knows how to create the tasks for the application and run
+
+- gradle compileJava - creates the class files in the build folder
+
+- gradle clean - deletes the build folder
+
+- gradle test - runs unit tests and generate report in build/reports folder
+
+- gradle will compile only the changed files.
+
+- gradle jar - creates jar file in build/lib folder
+
+- gradle run - runs the project by getting the main class from build.gradle
